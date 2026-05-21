@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Peluquería - Turnos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="codigo.js"></script>
+    
+</head>
+
+<body>
+
+
+<div class="pantalla1" id="login">
+    
+<h1>PELUQUERÍA STYLE</h1>
+
+<p>Usuario:
+<input type="text" id="usuario" placeholder="Ingrese usuario">
+</p>
+
+<p>Clave:
+<input type="password" id="clave" placeholder="Ingrese clave">
+</p>
+<br>
+<button onclick="ingresar()">Ingresar</button>
+
+</div>
+
+
+
+<div class="pantalla2" id="turno" style="display:none">
+
+<h1>Sacar Turno</h1>
+<hr>
+<a href= "https://www.pexels.com/es-es/foto/31206786/" target= "_blank"></a><img src="/Imagenes/peluqueria.jpg.jpg" width="900">
+<hr>
+
+
+<p>Nombre:
+<input type="text" id="nombre">
+</p>
+
+<p>Servicio:
+<select id="servicio">
+<option>Corte</option>
+<option>Color</option>
+<option>Peinado</option>
+</select>
+</p>
+
+<p>Fecha:
+<input type="date" id="fecha">
+</p>
+
+<p>Hora:
+<input type="time" id="hora">
+</p>
+
+<button onclick="reservar()">Reservar Turno</button>
+
+</div>
+
+
+
+<div class="pantalla3" id="confirmacion" style="display:none">
+
+<h1>Turno Confirmado ✅</h1>
+
+<p id="mensaje"></p>
+
+<button onclick="volver()">Volver al inicio</button>
+
+</div>
+
+</body>
+</html>

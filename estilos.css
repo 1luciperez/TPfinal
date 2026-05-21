@@ -1,0 +1,43 @@
+h1{
+color:white;
+text-shadow:2px 2px 3px black;
+}
+
+body{
+margin:0;
+font-family: Cambria;
+}
+
+
+.pantalla1{
+background-image: url("peluqueria.jpg");
+text-align:center;
+background-color:rgb(72, 50, 54);
+height:700px;
+padding-top:100px;
+background-position: center;
+width: 100%;
+min-height: 100vh;
+margin: 0 auto;
+}
+
+.pantalla2{
+text-align:center;
+background-color:rgb(47, 113, 164);
+height:700px;
+padding-top:80px;
+}
+
+
+.pantalla3{
+text-align:center;
+background-color:rgb(72, 128, 188);
+height:700px;
+padding-top:80px;
+}
+
+button{
+padding:10px;
+font-size:16px;
+margin-top:10px;
+}
