@@ -9,7 +9,7 @@ font-family: Cambria;
 }
 
 
-.pantalla1{
+.contenedor1{
 background-image: url("peluqueria.jpg");
 text-align:center;
 background-color:rgb(72, 50, 54);
@@ -21,7 +21,7 @@ min-height: 100vh;
 margin: 0 auto;
 }
 
-.pantalla2{
+.contenedor2{
 text-align:center;
 background-color:rgb(47, 113, 164);
 height:700px;
@@ -29,7 +29,7 @@ padding-top:80px;
 }
 
 
-.pantalla3{
+.contenedor3{
 text-align:center;
 background-color:rgb(72, 128, 188);
 height:700px;
